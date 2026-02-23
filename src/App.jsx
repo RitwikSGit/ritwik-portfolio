@@ -28,7 +28,7 @@ export default function App() {
           </button>
 
           <a
-            href="/ritwik_resume_sde_2.pdf"
+            href={`${import.meta.env.BASE_URL}Resume_Ritwik.pdf`}
             download
             className="flex items-center gap-2 font-medium opacity-80 hover:opacity-100 transition"
           >
